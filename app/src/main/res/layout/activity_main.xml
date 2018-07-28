@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <com.sothree.slidinguppanel.SlidingUpPanelLayout
+     tools:context=".MainActivity"
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     xmlns:sothree="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        sothree:umanoPanelHeight="150dp"
+        sothree:umanoShadowHeight="4dp"
+
+        >
+
+
+
+       <include
+            layout="@layout/activity_maps"
+            />
+
+        <include
+            layout = "@layout/activity_ong_details">
+
+        </include>
+
+
+
+    </com.sothree.slidinguppanel.SlidingUpPanelLayout>
+

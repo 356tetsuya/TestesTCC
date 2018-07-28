@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TesteLivro</string>
+    <string name="web_service_url">http://192.168.1.2:9090/</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nomeFantasia">Nome Fantasia</string>
+    <string name="razaoSocial">Razão Social</string>
+</resources>
